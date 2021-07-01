@@ -3,3 +3,7 @@
 #
 # Conditions
 
+nombre = "Pepe"
+nombre2 = "pepe"
+
+print(nombre == nombre2)
