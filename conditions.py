@@ -7,3 +7,5 @@ nombre = "Pepe"
 nombre2 = "pepe"
 
 print(nombre == nombre2)
+print(2 < 3)
+print(2 > 3)
