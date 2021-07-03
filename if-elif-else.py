@@ -11,3 +11,5 @@ elif int(age) > 16:
     print(f'Tienes más de 16 años')
 else:
     print(f'Tienes menos de 16 años')
+
+print (f"Tienes {age} años") if int(age) == 16 else print ("No tienes 16 años")
