@@ -1,12 +1,11 @@
-# The Complete Python Course For Beginners - @credits Tech With Tim
-# Beginner Python Programming
-#
-# Slice operator
+def caesarCipherEncryptor (string, key):
+    new_string = ""
+    for letter in string:
+        if ord(letter)+key > ord('z'):
+            new_string += chr(ord('a') + key - (ord('z')-ord(letter))-1)
+        else:
+            new_string += chr(ord(letter) + key )
+    return print(new_string)
 
-fruits = ['banana', 'pears', 'strawberry']
-text = 'Hello to all the human beings'
 
-print(text[3: 10: 2])  # [start:stop:step]
-
-fruits[1:1] = ["pomelo"]  # Si no pongo los corchetes va a ingresar cada letra de la palabra como un ítem.
-print(fruits)
+caesarCipherEncryptor('xyz', 2)
